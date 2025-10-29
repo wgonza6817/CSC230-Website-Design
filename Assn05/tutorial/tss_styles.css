@@ -78,13 +78,22 @@ nav {
 }
 nav > ul {
    line-height: 2em;
+   list-style-type: none;
 }
 
 
 
 
 /* List Styles */
-
+article.syllabus ol {
+   list-style-type: upper-roman;
+}
+article.syllabus ol ol {
+   list-style-type: upper-alpha;
+}
+article.syllabus ol ol ol{
+   list-style-type: decimal;
+}
 
 
 
