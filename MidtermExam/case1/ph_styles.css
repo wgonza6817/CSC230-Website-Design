@@ -43,7 +43,10 @@ p {
     margin: 0px;
     padding: 5px, 25px, 25px;
 }
-
+body > p {
+    font-size: 1.1em;
+    text-align: center;
+}
 /* Navigation Styles */
 
 
