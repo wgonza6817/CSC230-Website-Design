@@ -89,7 +89,18 @@ section#play3 {
 section#play4 {
     background-color: hsl(296,86%,86%);
 }
-
+section#play1 h1 {
+    font-family: Champagne, cursive;
+}
+section#play2 h1 {
+    font-family: Grunge, 'Times new Roman', Times, serif;
+}
+section#play3 h1 {
+    font-family: Impact, Charcoal, sans-serif;
+}
+section#play4 h1 {
+    font-family: Dobkin, cursive;
+}
 
 /* Description List Styles */
 
