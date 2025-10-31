@@ -55,7 +55,11 @@ address {
     padding-bottom: 10px;
 }
 /* Navigation Styles */
-
+nav a {
+    font-family: 'Trebutchet MS', Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
