@@ -14,7 +14,15 @@
 */
 
 /* Body Styles */
-
+body {
+    max-width: 960px;
+    min-width: 640px;
+    width: 95%;
+}
+body > header> img {
+    display: block;
+    width: 100%;
+}
 
 
 /* Body Header Styles */
