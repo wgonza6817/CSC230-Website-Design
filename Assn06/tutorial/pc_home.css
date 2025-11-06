@@ -27,13 +27,23 @@ body > header> img {
 }
 
 
-/* Body Header Styles */
 
+/* Body Header Styles */
+body > header > nav.horizontalNavigation li {
+    width: 20%;
+}
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
 
 
 
 /* Horizontal Navigation Styles */
-
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+}
 
 
 /* Left Column Styles */
