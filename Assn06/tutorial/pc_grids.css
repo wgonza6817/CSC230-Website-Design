@@ -25,7 +25,12 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-
+body > * {
+    outline: 2px dashed red;
+}
+section > * {
+    outline: 2px dashed blue;
+}
 /* Grid Rows Styles */
 
 
