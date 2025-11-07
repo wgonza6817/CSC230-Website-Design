@@ -16,12 +16,14 @@
 
 body {
     display: grid;
+    grid-template-columns: 2fr 1fr;
 }
 
 /* Grid Styles for Nested Grid*/
 
 section {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 /* Grid Rows Styles */
