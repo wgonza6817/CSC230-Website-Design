@@ -23,37 +23,47 @@ body {
                          "footer    footer";
     grid-column-gap: 15px;
 }
-body > header {
+
+body>header {
     grid-row: 1;
     grid-column: 1/-1;
 }
-body > article {
+
+body>article {
     grid-area: intro;
 }
-body > aside {
+
+body>aside {
     grid-area: faq;
 }
-body > section {
+
+body>section {
     grid-area: articles;
 }
-body > footer {
+
+body>footer {
     grid-area: footer;
 }
+
 /* Grid Styles for Nested Grid*/
 
 section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-section > h1 {
+
+section>h2 {
     grid-area: 1/1/2/3;
 }
-body > * {
+
+body>* {
     outline: 2px dashed red;
 }
-section > * {
+
+section>* {
     outline: 2px dashed blue;
 }
+
 /* Grid Rows Styles */
 
 
@@ -65,4 +75,3 @@ section > * {
 
 
 /* Grid Outline Styles */
-
