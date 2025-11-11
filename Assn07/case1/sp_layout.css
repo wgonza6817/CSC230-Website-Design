@@ -27,6 +27,9 @@ body {
     min-height: 100%;
 }
 
+img {
+    display: block;
+}
 
 /* Row Styles */
 
