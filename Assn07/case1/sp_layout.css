@@ -31,11 +31,6 @@ img {
     display: block;
 }
 
-img#logo {
-    grid-column: span 3;
-    width: 100%;
-}
-
 /*Grid Styles*/
 body {
     display: grid;
@@ -48,14 +43,26 @@ body {
 
 
 /* Page Header Styles */
+header {
+    grid-column: span 4;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header > img#logo {
+    grid-column: span 3;
+    width: 100%;
+}
 
 
-
-
-
-
+/* Aside Styles*/
+aside {
+    grid-column: 2/span 2;
+}
 /* Horizontal Navigation List Styles */
-
+nav.horizontal {
+    grid-column: span 4;
+}
 
 
 
@@ -76,5 +83,7 @@ body {
 
 
 /* Footer Styles */
-
+ footer {
+    grid-column: span 4;
+ }
 
