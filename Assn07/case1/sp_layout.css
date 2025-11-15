@@ -36,8 +36,9 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+
 /* Row Styles */
-section > ul > li > img {
+section>ul>li>img {
     width: 50%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -61,7 +62,7 @@ header {
     grid-template-columns: repeat(4, 1fr);
 }
 
-header > img#logo {
+header>img#logo {
     grid-column: span 3;
     width: 100%;
 }
@@ -69,14 +70,15 @@ header > img#logo {
 
 /* Aside Styles*/
 aside {
-    grid-column: 2/span 2;
+    grid-column: span 4;
 }
+
 /* Horizontal Navigation List Styles */
 nav.horizontal {
     grid-column: span 4;
 }
 
-nav.horizontal > ul > li {
+nav.horizontal>ul>li {
     display: block;
     width: 12.5%;
     float: left;
@@ -101,9 +103,12 @@ aside {
     padding-bottom: 30px;
 }
 
+aside>ul>li:nth-of-type(odd) {
+    justify-self: right;
+}
+
 
 /* Footer Styles */
- footer {
+footer {
     grid-column: span 4;
- }
-
+}
