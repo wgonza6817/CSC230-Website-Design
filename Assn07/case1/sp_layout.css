@@ -70,7 +70,7 @@ header>img#logo {
 
 /* Aside Styles*/
 aside {
-    grid-column: span 2;
+    grid-column: span 4;
     width: 75%;
     padding-bottom: 30px;
 }
@@ -78,6 +78,12 @@ aside {
 aside img {
     float: left;
     width: 20%;
+}
+
+aside p {
+    float: left;
+    width: 75%;
+    margin-left: 5%;
 }
 
 
