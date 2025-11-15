@@ -1,106 +1,206 @@
 @charset "utf-8";
 
+
+
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 3
-   Case Problem 1
-   
-   Layout styles for Slate and Pencil Tutoring
-   Author: William Gonzalez
-   Date:   11/10/2025
-   
-   Filename: sp_layout.css
+
+  New Perspectives on HTML5 and CSS3, 7th Edition
+
+  Tutorial 3
+
+  Case Problem 1
+
+  
+
+  Layout styles for Slate and Pencil Tutoring
+
+  Author:
+
+  Date:  
+
+  
+
+  Filename: sp_layout.css
+
+
 
 */
 
+
+
 /* Window and Body Styles */
+
+
+
 html {
-    height: 100%;
+
+height: 100%;
+
+
+
 }
 
 body {
-    width: 95%;
-    max-width: 960px;
-    min-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 100%;
+
+  min-height: 100%;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  max-width: 960px;
+
+  min-width: 640px;
+
+  width: 95%; 
+
 }
 
-img {
-    display: block;
+
+
+header, ul, nav, li, a {
+
+  -webkit-box-sizing: border-box;
+
+  -moz-box-sizing: border-box;
+
+  box-sizing: border-box; 
+
 }
 
-/*Grid Styles*/
-body {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
+
+
+
 
 /* Row Styles */
-section>ul>li>img {
-    width: 50%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
+
+
+
+.row::after {
+
+  clear: both;
+
+  content: "";
+
+  display: table;
+
 }
 
-section p {
-    width: 70%;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
+
 
 
 /* Page Header Styles */
-header {
-    grid-column: span 4;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-header>img#logo {
-    grid-column: span 3;
-    width: 100%;
-}
 
 
-/* Aside Styles*/
-aside {
-    grid-column: span 4;
-    width: 75%;
-    padding-bottom: 30px;
+
+body > header > img {
+
+  display: block;
+
+  float: left;
+
+  width: 70%;
+
 }
 
-aside img {
-    float: left;
-    width: 20%;
+
+
+body > header > nav {
+
+  float: left;
+
+  padding-left: 2%;
+
+  padding-right: 2%;  
+
+  width: 30%;
+
 }
 
-aside p {
-    float: left;
-    width: 75%;
-    margin-left: 5%;
+
+
+body > header > nav a {
+
+  display: block;
+
+  width: 100%;
+
 }
+
+
+
 
 
 /* Horizontal Navigation List Styles */
-nav.horizontal {
-    grid-column: span 4;
+
+
+
+nav.horizontal li {
+
+  display: block;
+
+  float: left;   
+
+  width: 12.5%;  
+
 }
 
-nav.horizontal>ul>li {
-    display: block;
-    width: 12.5%;
-    float: left;
-}
+
+
 
 
 /* Topics Styles */
 
+
+
+
+
+ul#topics li {
+
+  display: block;
+
+  float: left;
+
+  width: 20%;
+
+  margin-left: 0%;
+
+  margin-right: 1.5%; 
+
+}
+
+
+
+
+
+ul#topics li:first-of-type {
+
+  margin-left: 7.75%;
+
+}
+
+
+
+ul#topics li:last-of-type {
+
+  margin-right: 7.75%;
+
+}
+
+
+
+ul#topics li img {
+
+  display: block;
+
+  width: 50%;
+
+  margin: 0 auto;
+
+}
 
 
 
@@ -110,15 +210,76 @@ nav.horizontal>ul>li {
 
 
 
+hr {
 
-/* Customer Comment Styles */
+  width: 50%;
 
-aside>ul>li:nth-of-type(odd) {
-    justify-self: right;
 }
 
 
+
+
+
+/* Customer Comment Styles */
+
+
+
+ul#comments {
+
+  width: 75%;
+
+  margin: 40px auto;
+
+}
+
+
+
+
+
+ul#comments li {
+
+  display: block;
+
+  float: left;
+
+  margin-bottom: 30px;
+
+  width: 50%;
+
+}
+
+
+
+ul#comments li img {
+
+  display: block;
+
+  float: left;
+
+  width: 20%;
+
+  margin: 0 5%;
+
+}
+
+
+
+ul#comments li p {
+
+  float: left;
+
+  width: 70%;
+
+}
+
+
+
 /* Footer Styles */
+
+
+
 footer {
-    grid-column: span 4;
+
+  clear: both;
+
 }
