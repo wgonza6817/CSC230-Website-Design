@@ -70,8 +70,16 @@ header>img#logo {
 
 /* Aside Styles*/
 aside {
-    grid-column: span 4;
+    grid-column: span 2;
+    width: 75%;
+    padding-bottom: 30px;
 }
+
+aside img {
+    float: left;
+    width: 20%;
+}
+
 
 /* Horizontal Navigation List Styles */
 nav.horizontal {
@@ -98,10 +106,6 @@ nav.horizontal>ul>li {
 
 
 /* Customer Comment Styles */
-aside {
-    width: 75%;
-    padding-bottom: 30px;
-}
 
 aside>ul>li:nth-of-type(odd) {
     justify-self: right;
