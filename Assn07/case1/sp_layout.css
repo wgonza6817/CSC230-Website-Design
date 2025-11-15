@@ -45,7 +45,13 @@ section > ul > li > img {
     margin-right: auto;
 }
 
-
+section p {
+    width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* Page Header Styles */
