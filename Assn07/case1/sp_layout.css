@@ -37,7 +37,13 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 /* Row Styles */
-
+section > ul > li > img {
+    width: 50%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
