@@ -97,6 +97,8 @@ a.battleMarkers#marker6 {
 }
 
 /* Map Information Styles */
-
+div.mapInfo {
+   visibility: hidden;
+}
 
 
