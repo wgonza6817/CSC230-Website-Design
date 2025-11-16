@@ -48,6 +48,7 @@ aside {
 
 
 
+
 /* Map Styles */
 div#battleMap {
    position: relative;
@@ -55,16 +56,15 @@ div#battleMap {
    margin: 20px auto;
 }
 
-
-
-/* Interactive Map Styles */
 img#mapImage {
    display: block;
    width: 100%;
 }
 
-
-
+/* Interactive Map Styles */
+a.battleMarkers {
+   position: absolute;
+}
 /* Map Information Styles */
 
 
