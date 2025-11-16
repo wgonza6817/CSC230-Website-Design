@@ -49,7 +49,11 @@ aside {
 
 
 /* Map Styles */
-
+div#battleMap {
+   position: relative;
+   width: 688px;
+   margin: 20px auto;
+}
 
 
 
