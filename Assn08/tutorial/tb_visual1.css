@@ -64,6 +64,7 @@ body {
 /* Aside Styles */
 aside {
     border: 4px double rgb(45, 93, 62);
+    border-radius: 30px;
 }
 
 
