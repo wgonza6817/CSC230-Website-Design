@@ -32,3 +32,12 @@ figure#figure3 {
     box-shadow: rgb(101,101,101) 10px -10px 25px;
 }
 /* Filter Styles */
+figure#figure1 {
+    filter: sepia(0.8)
+}
+figure#figure2{
+    filter: grayscale(1);
+}
+figure#figure3{
+    filter: saturate(1.5) contrast(1.2);
+}
