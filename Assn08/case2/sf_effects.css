@@ -21,7 +21,9 @@ body {
 
 
 /* Navigation Tabs List Styles */
-
+body > header nav.tabs {
+    background: url(sf_back1.png) center / 100% no-repeat;
+}
 
 
 
