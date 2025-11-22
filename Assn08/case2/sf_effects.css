@@ -25,7 +25,9 @@ body > header nav.tabs {
     background: url(sf_back1.png) center / 100% no-repeat;
 }
 
-
+body > header nav.tabs li {
+    transform: perspective(50px) rotatex(20deg);
+}
 
 /* Left Section Styles */
 
