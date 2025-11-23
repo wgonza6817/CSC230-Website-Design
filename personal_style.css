@@ -2,6 +2,7 @@
 html {
     width: 100%;
     background: linear-gradient(135deg, rgba(44,83,158,1) 0%,rgba(44,83,158,1) 100%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Body Style */
@@ -76,6 +77,11 @@ nav#Assignments li {
     height: 40px;
     width: 12.5%;
     background-color: rgb(56, 56, 181);
+}
+
+nav#Assignments li:hover{
+    background-color: rgb(33, 165, 247);
+    font-weight: bold;
 }
 
 nav#Assignments a {
