@@ -25,7 +25,26 @@ body {
     flex-flow: row wrap;
 }
 
+header, footer {
+    width: 100%;
+}
 
+aside {
+    flex: 1 1 120px;   
+}
+
+section#main {
+    flex: 3 1 361px;
+}
+
+section#topics {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+section#topics article {
+    flex: 1 1 200px;
+}
 
 /* =========================
    Mobile Styles: 0 to 480px 
@@ -44,7 +63,14 @@ body {
 */
 
 @media only screen and (min-width: 481px) {
+    nav.horizontal ul {
+        display: flex;
+        flex-flow: row nowrap;
+    }
 
+    nav.horizontal li {
+        flex: 1 1 auto;
+    }
 
 
 }
