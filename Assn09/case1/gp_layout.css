@@ -29,10 +29,15 @@ body {
 
 section#sheet {
     flex-basis: 301px;
+    flex-grow: 3;
+    flex-shrink: 1;
+}
+
+article {
+    flex-basis: 180px;
     flex-grow: 1;
     flex-shrink: 3;
 }
-
 
 
 /* ============================================
