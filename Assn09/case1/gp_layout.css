@@ -49,6 +49,9 @@ article {
         width: 100%;
     }
 
+    nav.horizontal {
+        order: 99;
+    }
 }
 
 
