@@ -63,4 +63,6 @@ article {
 	Tablet and Desktop Devices: Greater than 480 pixels
    ===================================================
 */
-
+@media only screen and (min-width: 481px) {
+    
+}
