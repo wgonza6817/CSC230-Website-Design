@@ -91,7 +91,9 @@ a::after {
 
 
 /* Page Break Styles */
-
+article:nth-of-type(n+2) {
+   page-break-before: always;
+}
 
 
 
