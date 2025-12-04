@@ -17,7 +17,30 @@
 
 
 /* Hidden Objects */
+nav, footer, article {
+   display: none;
+}
 
+section#sheet {
+   width: 6in;
+   margin: 0in auto;
+}
+
+img.size1 {
+   width: 5in;
+}
+
+img.size {
+   width: 3in;
+}
+
+img.size {
+   width: 2in;
+}
+
+img.size {
+   width: 1.5in;
+}
 
 
 
