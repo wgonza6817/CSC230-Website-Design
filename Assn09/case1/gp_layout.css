@@ -69,4 +69,10 @@ article {
         flex-wrap: nowrap;
         height: 40px;
     }
+
+    nav.horizontal ul li {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+    }
 }
