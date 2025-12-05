@@ -25,4 +25,7 @@
         widows: 3;
         orphans: 3;
     }
+    article h1 {
+        column-span: all;
+    }
 }
