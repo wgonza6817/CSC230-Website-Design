@@ -65,29 +65,78 @@ header h1 {
 }
 
 /* Navigation List for Assignment Links */
-nav#Assignments {
-    width: 100%;
-}
-
-nav#Assignments li {
-    text-align: center;
-    display: block;
-    float: left;
-    border: 1px black solid;
-    height: 40px;
-    width: 12.5%;
-    background-color: rgb(56, 56, 181);
-}
-
-nav#Assignments li:hover{
-    background-color: rgb(33, 165, 247);
-    font-weight: bold;
-}
-
 nav#Assignments a {
     color: black;
     text-decoration: none;
 }
+
+ul.MainMenu {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px black solid;
+    width: 100%;
+    background-color: rgb(56, 56, 181);
+}
+
+ul.MainMenu > li {
+    height: 100%;
+}
+
+ul.MainMenu > li:not(:first-child):not(:last-child) {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+ul.MainMenu > li:first-child {
+    border-left: 2px black solid;
+    border-right: 1px black solid;
+}
+
+ul.MainMenu > li:last-child {
+    border-right: 2px black solid;
+    border-left: 1px black solid;
+}
+
+ul.MainMenu > li > a {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+ul.MainMenu > li:hover{
+    background-color: rgb(33, 165, 247);
+    font-weight: bold;
+}
+
+/* Pulldown Menu Styles */
+a.SubmenuTitle:hover+ul.SubMenu, ul.SubMenu:hover {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    position: absolute;
+    text-align: left;
+    background-color: rgb(56, 56, 181);
+    box-shadow: 2px 2px 2px,
+                -2px 2px 2px;
+    font-weight: normal;
+}
+
+ul.SubMenu li:hover {
+    background-color: rgb(33, 165, 247);
+}
+
+ul.SubMenu {
+    display: none;
+}
+
+ul.SubMenu li {
+    border: 1px black solid;
+}
+
 
 /* FAQs Styles */
 section {
