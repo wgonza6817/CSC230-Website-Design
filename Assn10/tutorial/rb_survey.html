@@ -90,6 +90,18 @@
                 <label for="mail">E-mail</label>
                 <input type="email" name="custEmail" id="mail">
             </div>
+            <div>
+                <label for="dish">What's your favorite dish?</label>
+                <input type="text" name="favDish" id="dish" list="dishType">
+                <datalist id="dishType">
+                    <option value="Anitpasto Pizza">
+                    <option value="Big Kahuna Pizza">
+                    <option value="BBQ Chicken Pizza">
+                    <option value="Mediterranean Herb Pizza">
+                    <option value="Pasta Rolls">
+                    <option value="Pasto Artichoke Pizza">
+                </datalist>
+            </div>
             <div class="formRow">
                 <label for="dineSpin">How many times do you dine out per month?</label>
                 <input type="number" name="dineOut" id="dineSpin" value="1" step="1" min="0" max="20">
