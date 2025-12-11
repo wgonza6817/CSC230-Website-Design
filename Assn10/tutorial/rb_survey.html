@@ -90,7 +90,19 @@
                 <label for="mail">E-mail</label>
                 <input type="email" name="custEmail" id="mail">
             </div>
-            <div>
+            <div class="formRow">
+                <label for="info">Where did you hear about us?
+                    <br>(select all that apply)
+                </label>
+                <select name="infoSrc" id="info" size="5" multiple>
+                    <option value="internet">Internet</option>
+                    <option value="mag">Magazine</option>
+                    <option value="news">Newspaper</option>
+                    <option value="word">Word of Mouth</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="formRow">
                 <label for="dish">What's your favorite dish?</label>
                 <input type="text" name="favDish" id="dish" list="dishType">
                 <datalist id="dishType">
@@ -122,18 +134,6 @@
                     <option value="order2">Delivery</option>
                     <option value="order3" selected>Dine in</option>
                     <option value="order4">Take 'n bake</option>
-                </select>
-            </div>
-            <div class="formRow">
-                <label for="info">Where did you hear about us?
-                    <br>(select all that apply)
-                </label>
-                <select name="infoSrc" id="info" size="5" multiple>
-                    <option value="internet">Internet</option>
-                    <option value="mag">Magazine</option>
-                    <option value="news">Newspaper</option>
-                    <option value="word">Word of Mouth</option>
-                    <option value="other">Other</option>
                 </select>
             </div>
             <div class="formRow">
