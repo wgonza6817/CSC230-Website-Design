@@ -10,6 +10,7 @@ body {
     position: relative;
     min-width: 900px;
     max-width: 1200px;
+    max-height: 900px;
     border-radius: 15px;
     box-shadow: 10px 0px 30px,
                 -10px 0px 30px;
@@ -194,6 +195,7 @@ div#FAQs2 > ul {
 article {
     background-color: rgb(56, 56, 181);
     border-radius: 10px;
+    margin: 10px;
     padding: 10px;
     box-shadow: 5px 0px 5px,
                 -5px 0px 5px;
@@ -203,10 +205,10 @@ aside {
     background-color: rgb(56, 56, 181);
     border-radius: 10px;
     padding: 5px;
-    margin-left: 20px;
-    margin-top: 10px;
+    margin: 10px;
     box-shadow: 5px 0px 5px,
                 -5px 0px 5px;
+    text-align: center;
 }
 
 aside h2 {
@@ -219,8 +221,7 @@ aside h3 {
 
 }
 aside img {
-    position: relative;
-    left: 3.95%;
+    height: 400px;
     border-radius: 10px;
     padding: 5px;
 }
