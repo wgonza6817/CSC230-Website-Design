@@ -65,3 +65,28 @@
     td {
         padding: 2px 5px;
     }
+
+    /* Grid Style */
+
+    body {
+        display: grid;
+        grid-template-areas: "Header Header"
+                             "Nav    Section"
+                             "Footer Footer";
+    }
+
+    header {
+        grid-area: Header;
+    }
+
+    nav#Assignments {
+        grid: Nav;
+    }
+
+    section {
+        grid-area: Section;
+    }
+
+    footer {
+        grid-area: Footer;
+    }
