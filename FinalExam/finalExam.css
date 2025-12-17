@@ -38,20 +38,11 @@ p {
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 a:hover {
     color: green;
-}
-
-table {
-    border-style: none;
-    width: 90%;
-    margin-left: 30px;
-}
-
-td {
-    padding: 2px 5px;
 }
 
 /* Grid Style */
@@ -81,7 +72,7 @@ footer {
 /* Header Styles */
 header {
     height: 300px;
-    background-color: rgb(163, 233, 255);
+    background-color: rgb(136, 177, 245);
     display: flex;
     justify-content: flex-end;
 }
@@ -94,14 +85,14 @@ header h1 {
     font-size: 36pt;
     margin: 35px 0px 0px;
     padding: 15px 0px 0px 15px;
-    background-color: rgb(163, 233, 255);
+    background-color: rgb(136, 177, 245);
 }
 
 header h3 {
     font-size: 24pt;
     margin: 0px;
     padding: 0px 0px 15px 15px;
-    background-color: rgb(163, 233, 255);
+    background-color: rgb(136, 177, 245);
 }
 
 div#headerPicture {
@@ -117,7 +108,7 @@ div#headerPicture img {
 
 /* Nav Styles */
 nav {
-    background-color: rgb(163, 233, 255);
+    background-color: rgb(136, 177, 245);
     color: gray;
     text-align: center;
     vertical-align: top;
@@ -127,4 +118,31 @@ nav {
 
 nav ul {
     list-style: none;
+}
+
+/* Section Styles */
+section {
+    background-color: rgb(150, 151, 188);
+    padding: 15px;
+}
+
+section table th {
+    background-color: rgb(133, 128, 128);
+}
+
+/* Table Styles */
+table {
+    border-style: none;
+    width: 90%;
+    margin-left: 30px;
+}
+
+td {
+    padding: 2px 5px;
+}
+
+td i {
+    font-size: medium;
+    text-align: left;
+    vertical-align: top;
 }
