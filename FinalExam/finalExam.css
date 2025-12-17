@@ -117,7 +117,23 @@ nav {
 }
 
 nav ul {
+    display: block;
     list-style: none;
+    position: sticky;
+    top: 100px;
+}
+
+/* Submenu Styles */
+ul.submenu {
+    display: none;
+}
+
+a.SubmenuTitle:hover+ul.submenu, ul.submenu:hover {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+    background-color: rgb(118, 156, 217);
 }
 
 /* Section Styles */
@@ -139,6 +155,8 @@ table {
 
 td {
     padding: 2px 5px;
+    width: 50%;
+    vertical-align: top;
 }
 
 td i {
