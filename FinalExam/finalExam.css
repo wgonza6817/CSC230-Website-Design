@@ -146,3 +146,10 @@ td i {
     text-align: left;
     vertical-align: top;
 }
+
+/* Footer Styles */
+footer {
+    background-color: rgb(96, 155, 251);
+    text-align: center;
+    font-size: medium;
+}
